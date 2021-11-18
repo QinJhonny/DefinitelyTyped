@@ -504,7 +504,8 @@ declare namespace OSS {
         headers?: object | undefined;
         timeout?: number | undefined;
         /** {Object} only uploadPartCopy api used, detail */
-        copyheaders?: object | undefined;
+        copyheaders?: object | undefined,
+        disabledMD5?: boolean | undefined
     }
 
     interface MultipartUploadResult {
